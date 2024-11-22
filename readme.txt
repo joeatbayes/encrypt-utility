@@ -21,3 +21,10 @@ Decrypt a File:
   Removes file.txt.enc.  omit the -r option to keep 
   original file.
 
+BUILDING:
+  Install golang
+  git clone git@github.com:joeatbayes/encrypt-utility.git
+  cd to directory where you cloned the code
+  go build encrypt.go
+  add the built executable to someplace on your path 
+
