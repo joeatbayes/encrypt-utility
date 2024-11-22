@@ -32,8 +32,9 @@ windows and linux.
 
 BUILDING:
   Install golang
-  git clone git@github.com:joeatbayes/encrypt-utility.git
+  git clone git@github.com:joeatbayes/encrypt-utility.git  
   cd to directory where you cloned the code
+  go get golang.org/x/crypto/pbkdf2
   go build encrypt.go
   add the built executable to someplace on your path 
 
