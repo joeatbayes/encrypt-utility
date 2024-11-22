@@ -37,3 +37,8 @@ BUILDING:
   go build encrypt.go
   add the built executable to someplace on your path 
 
+  Why I didn't include binaries.
+  I don't know you, you don't know me, you really should read 
+  the source code in encrypt.go before trusting this utility 
+  to do what I claim and nothing else.   
+
