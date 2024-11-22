@@ -21,6 +21,15 @@ Decrypt a File:
   Removes file.txt.enc.  omit the -r option to keep 
   original file.
 
+The password is piped in on stdin to make it easy 
+to script while keeping password out of ps lists 
+where it can be harvested by malicious code. 
+
+Encypted file contents are base64 encoded to avoid
+issues with line feed / new line transalations between
+windows and linux.
+
+
 BUILDING:
   Install golang
   git clone git@github.com:joeatbayes/encrypt-utility.git
